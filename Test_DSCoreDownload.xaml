@@ -1,0 +1,187 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Test_DSCoreDownload" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Test_DSCoreDownload_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Net.Http</x:String>
+      <x:String>System.IO.Compression</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Net.Http.Headers</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Net.Http.WinHttpHandler</AssemblyReference>
+      <AssemblyReference>Microsoft.Extensions.Http</AssemblyReference>
+      <AssemblyReference>System.Net.Http</AssemblyReference>
+      <AssemblyReference>System.IO.Compression</AssemblyReference>
+      <AssemblyReference>System.IO.Compression.Brotli</AssemblyReference>
+      <AssemblyReference>System.IO.Compression.ZipFile</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Test_DSCoreDownload" sap:VirtualizedContainerService.HintSize="1472,671" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="in_AccessToken" />
+      <Variable x:TypeArguments="x:String" Name="in_CaseGUID">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">7b90464f-24fb-4374-baab-507473dd7aee</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="in_CaseName">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">2AA42SR4</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="str_CaseNameFolder">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">C:\IOSBestanden\</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="in_BaseUrl">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">https://r2.dscore.com/api/</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="in_TimeZone">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Europe/Amsterdam</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="finalZipFile" />
+      <Variable x:TypeArguments="x:Boolean" Name="Case_found" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[in_CaseName]" />
+    <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[in_AccessToken]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">eyJ0eXAiOiJKV1QiLCJraWQiOiI4QmpmQTY1ajlUckhPWE5nb3F5V3d0SCtGUEk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIzZmYyMGI3ZS0yMjczLTQzM2ItOTExMi1jYTMwODZmMWI3NDIiLCJjdHMiOiJPQVVUSDJfU1RBVEVMRVNTX0dSQU5UIiwiYXV0aF9sZXZlbCI6MCwiYXVkaXRUcmFja2luZ0lkIjoiNmM0MjdjY2YtNzM0MC00NDYwLTgzNWUtZDlhOTg4M2Q2Y2E0LTEyMTI0NzcyIiwic3VibmFtZSI6IjNmZjIwYjdlLTIyNzMtNDMzYi05MTEyLWNhMzA4NmYxYjc0MiIsImlzcyI6Imh0dHBzOi8vb3BlbmFtLWRlbnNpcm9uYS1ldXczLmlkLmZvcmdlcm9jay5pbzo0NDMvYW0vb2F1dGgyL3JlYWxtcy9yb290L3JlYWxtcy9hbHBoYSIsInRva2VuTmFtZSI6ImFjY2Vzc190b2tlbiIsInRva2VuX3R5cGUiOiJCZWFyZXIiLCJhdXRoR3JhbnRJZCI6InR4bmFoU0JSZjk5TDktbEJwMkNLWWFLeFpnTSIsImNsaWVudF9pZCI6ImxpZ2h0bmluZy1hcHAiLCJhdWQiOiJsaWdodG5pbmctYXBwIiwibmJmIjoxNzY4NTY3Njc1LCJncmFudF90eXBlIjoiYXV0aG9yaXphdGlvbl9jb2RlIiwic2NvcGUiOlsicC1ldS13ZXN0NC1kc2NvcmUiLCJyMi1kc2NvcmUiXSwiYXV0aF90aW1lIjoxNzY4NTY3Njc1LCJyZWFsbSI6Ii9hbHBoYSIsImV4cCI6MTc2ODU3MTI3NSwiaWF0IjoxNzY4NTY3Njc1LCJleHBpcmVzX2luIjozNjAwLCJqdGkiOiJqaWNHOHBCbnFZLVR4UDREb0NWVHVleml1dzgiLCJlbWFpbCI6IkVtcHJlaW50ZXNudW1lcmlxdWVzQGxhYm9jYXN0LmZyIiwidXNlcl9pZCI6IjNmZjIwYjdlLTIyNzMtNDMzYi05MTEyLWNhMzA4NmYxYjc0MiIsInVzZXJfb3JpZ2luIjoicmVndWxhciIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJzaWdudXBfY2x1c3RlciI6InIyIiwiYWNjb3VudF9jbHVzdGVyIjoicjIiLCJhY2NfY29yZV9pZCI6IjIwNzQyMzIwNjAiLCJhY2NfY291bnRyeSI6IkZSIiwiYWNjX29yaWdpbiI6IlJFR1VMQVIiLCJhY2kiOiI1NmUzMDA1Ny03ZWVkLTQ0NjgtOTQ4NS1mMjQ5MjYxOTg2ZWIiLCJkY21fbWlncmF0aW9uX3N0YXRlIjoibWlncmF0ZWQiLCJkeGRfbWlncmF0aW9uX3N0YXRlIjoibWlncmF0ZWQiLCJyb2xlIjoiT1dORVIifQ.X8R1Yt_X7otlcwLECarT6gPDq_RAFbOxb4CF52Tw5ezpkI6-BVix_DGyWFzV96TPn7grhjKb49VtbTodORVUdGgnXynWQ0gYfVeQJVPwOnUe-3i45La42W8onlccA0QPkXVKWIneGOMozgfH1j87sU4evtSDd0bxmK9TyZ5-qTIo2i6wTZPMKxka89GnoIZfJj3u3_jqE38PUwZSVC8T4xyvEWyZYnlPDL6UyCzABGFt6C4X1ICeu94FqWHvrYkef_Y7i5kWhDkhx6OuKFpiiK_XhmpiTzL14_RUVg1kGB36WNLwQ5LrrBJgoEhLChU2anUdvUwrLu3B6dCY3TFB0A</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="System.Net.ServicePointManager.SecurityProtocol =&#xD;&#xA;    System.Net.SecurityProtocolType.Tls12 Or&#xD;&#xA;    System.Net.SecurityProtocolType.Tls11 Or&#xD;&#xA;    System.Net.SecurityProtocolType.Tls&#xD;&#xA;&#xD;&#xA;Dim baseUrl As String = If(String.IsNullOrWhiteSpace(in_BaseUrl), &quot;https://r2.dscore.com/api/&quot;, in_BaseUrl).Trim().TrimEnd(&quot;/&quot;c)&#xD;&#xA;Dim token As String = If(in_AccessToken, &quot;&quot;).Trim()&#xD;&#xA;Dim orderId As String = If(in_CaseGUID, &quot;&quot;).Trim()&#xD;&#xA;Dim displayId As String = If(String.IsNullOrWhiteSpace(in_CaseName), orderId, in_CaseName).Trim()&#xD;&#xA;Dim outputDir As String = If(str_CaseNameFolder, &quot;&quot;).Trim()&#xD;&#xA;Dim tz As String = If(String.IsNullOrWhiteSpace(in_TimeZone), &quot;Europe/Amsterdam&quot;, in_TimeZone).Trim()&#xD;&#xA;&#xD;&#xA;finalZipFile = &quot;No file found&quot;&#xD;&#xA;Case_found = False&#xD;&#xA;&#xD;&#xA;If String.IsNullOrWhiteSpace(token) Then Throw New System.Exception(&quot;AccessToken is empty.&quot;)&#xD;&#xA;If String.IsNullOrWhiteSpace(orderId) Then Throw New System.Exception(&quot;DesignOrderId (CaseGUID) is empty.&quot;)&#xD;&#xA;If String.IsNullOrWhiteSpace(outputDir) Then Throw New System.Exception(&quot;OutputFolder is empty.&quot;)&#xD;&#xA;System.IO.Directory.CreateDirectory(outputDir)&#xD;&#xA;&#xD;&#xA;'======================&#xD;&#xA;' SPEED KNOBS&#xD;&#xA;'======================&#xD;&#xA;Dim parallelDownloads As Integer = 8       '10 (many) / 4 (big) / 6 (mixed)&#xD;&#xA;Dim maxPolls As Integer = 15&#xD;&#xA;Dim pollDelayMs As Integer = 800&#xD;&#xA;Dim maxConnectionsPerServer As Integer = 20&#xD;&#xA;&#xD;&#xA;'======================&#xD;&#xA;' Helpers&#xD;&#xA;'======================&#xD;&#xA;Dim MakeUniquePath As System.Func(Of String, String) =&#xD;&#xA;    Function(p As String) As String&#xD;&#xA;        If Not System.IO.File.Exists(p) Then Return p&#xD;&#xA;        Dim dir = System.IO.Path.GetDirectoryName(p)&#xD;&#xA;        Dim name = System.IO.Path.GetFileNameWithoutExtension(p)&#xD;&#xA;        Dim ext = System.IO.Path.GetExtension(p)&#xD;&#xA;        Dim i = 1&#xD;&#xA;        Dim candidate = System.IO.Path.Combine(dir, name &amp; &quot;_&quot; &amp; i &amp; ext)&#xD;&#xA;        While System.IO.File.Exists(candidate)&#xD;&#xA;            i += 1&#xD;&#xA;            candidate = System.IO.Path.Combine(dir, name &amp; &quot;_&quot; &amp; i &amp; ext)&#xD;&#xA;        End While&#xD;&#xA;        Return candidate&#xD;&#xA;    End Function&#xD;&#xA;&#xD;&#xA;Dim ExtractEntrySafely As System.Action(Of System.IO.Compression.ZipArchiveEntry, String) =&#xD;&#xA;    Sub(entry As System.IO.Compression.ZipArchiveEntry, mergeDir As String)&#xD;&#xA;        Dim targetPath = System.IO.Path.Combine(mergeDir, entry.FullName)&#xD;&#xA;        Dim dir = System.IO.Path.GetDirectoryName(targetPath)&#xD;&#xA;        If Not String.IsNullOrEmpty(dir) Then System.IO.Directory.CreateDirectory(dir)&#xD;&#xA;&#xD;&#xA;        Dim fileName = System.IO.Path.GetFileName(targetPath)&#xD;&#xA;        If Not String.IsNullOrEmpty(fileName) Then&#xD;&#xA;            targetPath = MakeUniquePath(targetPath)&#xD;&#xA;        End If&#xD;&#xA;&#xD;&#xA;        entry.ExtractToFile(targetPath, False)&#xD;&#xA;    End Sub&#xD;&#xA;&#xD;&#xA;Dim ExtractNestedZipsAndFilter As System.Action(Of String) =&#xD;&#xA;    Sub(folder As String)&#xD;&#xA;        For Each z In System.IO.Directory.GetFiles(folder, &quot;*.zip&quot;, System.IO.SearchOption.AllDirectories)&#xD;&#xA;            Dim extractDir = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(z), System.IO.Path.GetFileNameWithoutExtension(z))&#xD;&#xA;            System.IO.Directory.CreateDirectory(extractDir)&#xD;&#xA;            System.IO.Compression.ZipFile.ExtractToDirectory(z, extractDir, True)&#xD;&#xA;            System.IO.File.Delete(z)&#xD;&#xA;        Next&#xD;&#xA;&#xD;&#xA;        For Each f In System.IO.Directory.GetFiles(folder, &quot;*.*&quot;, System.IO.SearchOption.AllDirectories)&#xD;&#xA;            Dim ext = System.IO.Path.GetExtension(f).ToLowerInvariant()&#xD;&#xA;            If ext = &quot;.jpg&quot; OrElse ext = &quot;.jpeg&quot; OrElse ext = &quot;.png&quot; OrElse ext = &quot;.gif&quot; OrElse ext = &quot;.bmp&quot; Then&#xD;&#xA;                System.IO.File.Delete(f)&#xD;&#xA;            End If&#xD;&#xA;        Next&#xD;&#xA;    End Sub&#xD;&#xA;&#xD;&#xA;Dim DownloadOneToFileAsync As System.Func(Of System.Net.Http.HttpClient, String, String, System.Threading.Tasks.Task) =&#xD;&#xA;    Async Function(http As System.Net.Http.HttpClient, url As String, targetPath As String) As System.Threading.Tasks.Task&#xD;&#xA;        System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(targetPath))&#xD;&#xA;&#xD;&#xA;        Using resp = Await http.GetAsync(url, System.Net.Http.HttpCompletionOption.ResponseHeadersRead).ConfigureAwait(False)&#xD;&#xA;            resp.EnsureSuccessStatusCode()&#xD;&#xA;&#xD;&#xA;            Using netStream = Await resp.Content.ReadAsStreamAsync().ConfigureAwait(False)&#xD;&#xA;                Dim safePath = MakeUniquePath(targetPath)&#xD;&#xA;                Using fs As New System.IO.FileStream(safePath, System.IO.FileMode.Create, System.IO.FileAccess.Write, System.IO.FileShare.None,&#xD;&#xA;                                                    1024 * 1024, True)&#xD;&#xA;                    Await netStream.CopyToAsync(fs, 1024 * 1024).ConfigureAwait(False)&#xD;&#xA;                End Using&#xD;&#xA;            End Using&#xD;&#xA;        End Using&#xD;&#xA;    End Function&#xD;&#xA;&#xD;&#xA;Dim DownloadManyAsync As System.Func(Of System.Net.Http.HttpClient,&#xD;&#xA;                                   System.Collections.Generic.List(Of System.Collections.Generic.KeyValuePair(Of String, String)),&#xD;&#xA;                                   String,&#xD;&#xA;                                   Integer,&#xD;&#xA;                                   System.Threading.Tasks.Task) =&#xD;&#xA;    Async Function(http As System.Net.Http.HttpClient,&#xD;&#xA;                   items As System.Collections.Generic.List(Of System.Collections.Generic.KeyValuePair(Of String, String)),&#xD;&#xA;                   folder As String,&#xD;&#xA;                   parallel As Integer) As System.Threading.Tasks.Task&#xD;&#xA;&#xD;&#xA;        If items Is Nothing OrElse items.Count = 0 Then Return&#xD;&#xA;&#xD;&#xA;        Dim throttler As New System.Threading.SemaphoreSlim(parallel)&#xD;&#xA;        Dim tasks As New System.Collections.Generic.List(Of System.Threading.Tasks.Task)()&#xD;&#xA;&#xD;&#xA;        For Each it In items&#xD;&#xA;            Dim url = it.Key&#xD;&#xA;            Dim name = it.Value&#xD;&#xA;&#xD;&#xA;            tasks.Add(System.Threading.Tasks.Task.Run(&#xD;&#xA;                Async Function()&#xD;&#xA;                    Await throttler.WaitAsync().ConfigureAwait(False)&#xD;&#xA;                    Try&#xD;&#xA;                        Dim filePath = System.IO.Path.Combine(folder, name)&#xD;&#xA;                        Await DownloadOneToFileAsync(http, url, filePath).ConfigureAwait(False)&#xD;&#xA;                    Finally&#xD;&#xA;                        throttler.Release()&#xD;&#xA;                    End Try&#xD;&#xA;                End Function))&#xD;&#xA;        Next&#xD;&#xA;&#xD;&#xA;        Await System.Threading.Tasks.Task.WhenAll(tasks).ConfigureAwait(False)&#xD;&#xA;    End Function&#xD;&#xA;&#xD;&#xA;Dim PollOperationAsync As System.Func(Of System.Net.Http.HttpClient, String, String, Integer, Integer, System.Threading.Tasks.Task(Of Newtonsoft.Json.Linq.JObject)) =&#xD;&#xA;    Async Function(http As System.Net.Http.HttpClient, opUrl As String, opName As String, polls As Integer, delayMs As Integer) As System.Threading.Tasks.Task(Of Newtonsoft.Json.Linq.JObject)&#xD;&#xA;        For i = 1 To polls&#xD;&#xA;            Dim pollBody As New Newtonsoft.Json.Linq.JObject From {{&quot;name&quot;, opName}}&#xD;&#xA;            Using poll = New System.Net.Http.StringContent(pollBody.ToString(), System.Text.Encoding.UTF8, &quot;application/json&quot;)&#xD;&#xA;                Using pollResp = Await http.PostAsync(opUrl, poll).ConfigureAwait(False)&#xD;&#xA;                    Dim pollTxt = Await pollResp.Content.ReadAsStringAsync().ConfigureAwait(False)&#xD;&#xA;                    Dim opResp = Newtonsoft.Json.Linq.JObject.Parse(pollTxt)&#xD;&#xA;                    If opResp.Value(Of Boolean?)(&quot;done&quot;) = True Then Return opResp&#xD;&#xA;                End Using&#xD;&#xA;            End Using&#xD;&#xA;            Await System.Threading.Tasks.Task.Delay(delayMs).ConfigureAwait(False)&#xD;&#xA;        Next&#xD;&#xA;        Return Nothing&#xD;&#xA;    End Function&#xD;&#xA;&#xD;&#xA;Dim TryDownloadDXDAsync As System.Func(Of System.Net.Http.HttpClient, String, String, String, String, String, System.Threading.Tasks.Task(Of Boolean)) =&#xD;&#xA;    Async Function(http As System.Net.Http.HttpClient, baseUrl2 As String, accountId As String, shareId As String, studyUid As String, mergeDir As String) As System.Threading.Tasks.Task(Of Boolean)&#xD;&#xA;        Dim postUrl = baseUrl2 &amp; &quot;/dxd/download-exocad&quot;&#xD;&#xA;        Dim bodyObj As New Newtonsoft.Json.Linq.JObject From {{&quot;accountId&quot;, accountId}, {&quot;studyUid&quot;, studyUid}, {&quot;shareId&quot;, shareId}}&#xD;&#xA;&#xD;&#xA;        Using content = New System.Net.Http.StringContent(bodyObj.ToString(), System.Text.Encoding.UTF8, &quot;application/json&quot;)&#xD;&#xA;            Using postResp = Await http.PostAsync(postUrl, content).ConfigureAwait(False)&#xD;&#xA;                If Not postResp.IsSuccessStatusCode Then Return False&#xD;&#xA;&#xD;&#xA;                Dim bytes = Await postResp.Content.ReadAsByteArrayAsync().ConfigureAwait(False)&#xD;&#xA;                Dim respText = System.Text.Encoding.UTF8.GetString(bytes)&#xD;&#xA;&#xD;&#xA;                If respText.TrimStart().StartsWith(&quot;{&quot;) Then&#xD;&#xA;                    Dim jsonResp = Newtonsoft.Json.Linq.JObject.Parse(respText)&#xD;&#xA;                    Dim downloadUrl = CStr(jsonResp(&quot;downloadUrl&quot;))&#xD;&#xA;                    If String.IsNullOrWhiteSpace(downloadUrl) Then Return False&#xD;&#xA;&#xD;&#xA;                    Using resp2 = Await http.GetAsync(downloadUrl, System.Net.Http.HttpCompletionOption.ResponseHeadersRead).ConfigureAwait(False)&#xD;&#xA;                        resp2.EnsureSuccessStatusCode()&#xD;&#xA;                        bytes = Await resp2.Content.ReadAsByteArrayAsync().ConfigureAwait(False)&#xD;&#xA;                    End Using&#xD;&#xA;                End If&#xD;&#xA;&#xD;&#xA;                Using ms As New System.IO.MemoryStream(bytes)&#xD;&#xA;                    Using zip As New System.IO.Compression.ZipArchive(ms, System.IO.Compression.ZipArchiveMode.Read)&#xD;&#xA;                        For Each entry In zip.Entries&#xD;&#xA;                            ExtractEntrySafely(entry, mergeDir)&#xD;&#xA;                        Next&#xD;&#xA;                    End Using&#xD;&#xA;                End Using&#xD;&#xA;&#xD;&#xA;                Return True&#xD;&#xA;            End Using&#xD;&#xA;        End Using&#xD;&#xA;    End Function&#xD;&#xA;&#xD;&#xA;Dim DownloadViaBatchAsync As System.Func(Of System.Net.Http.HttpClient, String, String, String, String, String, String, String, String, String, System.Threading.Tasks.Task(Of Boolean)) =&#xD;&#xA;    Async Function(http As System.Net.Http.HttpClient, baseUrl2 As String, orderId2 As String, shareId As String, tz2 As String,&#xD;&#xA;                   accId As String, studyUid As String, mergeDir As String, downloadOption As String, storageType As String) As System.Threading.Tasks.Task(Of Boolean)&#xD;&#xA;&#xD;&#xA;        Dim gwBase = baseUrl2.Replace(&quot;://r2.&quot;, &quot;://media-library-gw.r2.&quot;)&#xD;&#xA;        Dim batchUrl = gwBase &amp; &quot;/resources:batchDownload&quot;&#xD;&#xA;&#xD;&#xA;        Dim reqBody As New Newtonsoft.Json.Linq.JObject From {&#xD;&#xA;            {&quot;accountId&quot;, accId},&#xD;&#xA;            {&quot;orderContext&quot;, New Newtonsoft.Json.Linq.JObject From {{&quot;orderId&quot;, orderId2}, {&quot;shareId&quot;, shareId}}},&#xD;&#xA;            {&quot;userTimezone&quot;, tz2},&#xD;&#xA;            {&quot;resources&quot;, New Newtonsoft.Json.Linq.JArray From {&#xD;&#xA;                New Newtonsoft.Json.Linq.JObject From {&#xD;&#xA;                    {&quot;identifier&quot;, New Newtonsoft.Json.Linq.JObject From {{&quot;storage&quot;, storageType}, {&quot;id&quot;, studyUid}}},&#xD;&#xA;                    {&quot;downloadOption&quot;, downloadOption}&#xD;&#xA;                }&#xD;&#xA;            }}&#xD;&#xA;        }&#xD;&#xA;&#xD;&#xA;        Using post = New System.Net.Http.StringContent(reqBody.ToString(), System.Text.Encoding.UTF8, &quot;application/json&quot;)&#xD;&#xA;            Using resp = Await http.PostAsync(batchUrl, post).ConfigureAwait(False)&#xD;&#xA;                Dim body = Await resp.Content.ReadAsStringAsync().ConfigureAwait(False)&#xD;&#xA;                If Not resp.IsSuccessStatusCode Then Return False&#xD;&#xA;&#xD;&#xA;                Dim batchResp = Newtonsoft.Json.Linq.JObject.Parse(body)&#xD;&#xA;                Dim opName = CStr(batchResp(&quot;name&quot;))&#xD;&#xA;                If String.IsNullOrWhiteSpace(opName) Then Return False&#xD;&#xA;&#xD;&#xA;                Dim opUrl = gwBase &amp; &quot;/operations&quot;&#xD;&#xA;                Dim opResp = Await PollOperationAsync(http, opUrl, opName, maxPolls, pollDelayMs).ConfigureAwait(False)&#xD;&#xA;                If opResp Is Nothing OrElse opResp.Value(Of Boolean?)(&quot;done&quot;) &lt;&gt; True Then Return False&#xD;&#xA;&#xD;&#xA;                Dim respObj = opResp(&quot;response&quot;)&#xD;&#xA;                If respObj Is Nothing Then Return False&#xD;&#xA;&#xD;&#xA;                Dim items As New System.Collections.Generic.List(Of System.Collections.Generic.KeyValuePair(Of String, String))()&#xD;&#xA;&#xD;&#xA;                Dim singleUrl As String = If(respObj(&quot;downloadUrl&quot;) Is Nothing, &quot;&quot;, CStr(respObj(&quot;downloadUrl&quot;)))&#xD;&#xA;                Dim singleName As String = If(respObj(&quot;fileName&quot;) Is Nothing, &quot;&quot;, CStr(respObj(&quot;fileName&quot;)))&#xD;&#xA;                If Not String.IsNullOrWhiteSpace(singleUrl) AndAlso Not String.IsNullOrWhiteSpace(singleName) Then&#xD;&#xA;                    items.Add(New System.Collections.Generic.KeyValuePair(Of String, String)(singleUrl, singleName))&#xD;&#xA;                End If&#xD;&#xA;&#xD;&#xA;                Dim files = TryCast(respObj(&quot;files&quot;), Newtonsoft.Json.Linq.JArray)&#xD;&#xA;                If files IsNot Nothing Then&#xD;&#xA;                    For Each f As Newtonsoft.Json.Linq.JObject In files&#xD;&#xA;                        Dim url As String = If(f(&quot;downloadUrl&quot;) Is Nothing, &quot;&quot;, CStr(f(&quot;downloadUrl&quot;)))&#xD;&#xA;                        Dim name As String = If(f(&quot;fileName&quot;) Is Nothing, &quot;&quot;, CStr(f(&quot;fileName&quot;)))&#xD;&#xA;                        If Not String.IsNullOrWhiteSpace(url) AndAlso Not String.IsNullOrWhiteSpace(name) Then&#xD;&#xA;                            items.Add(New System.Collections.Generic.KeyValuePair(Of String, String)(url, name))&#xD;&#xA;                        End If&#xD;&#xA;                    Next&#xD;&#xA;                End If&#xD;&#xA;&#xD;&#xA;                If items.Count = 0 Then Return False&#xD;&#xA;&#xD;&#xA;                Await DownloadManyAsync(http, items, mergeDir, parallelDownloads).ConfigureAwait(False)&#xD;&#xA;                Return True&#xD;&#xA;            End Using&#xD;&#xA;        End Using&#xD;&#xA;    End Function&#xD;&#xA;&#xD;&#xA;Dim RunAsync As System.Func(Of System.Threading.Tasks.Task(Of System.Tuple(Of Boolean, String))) =&#xD;&#xA;    Async Function() As System.Threading.Tasks.Task(Of System.Tuple(Of Boolean, String))&#xD;&#xA;&#xD;&#xA;        Dim handler As New System.Net.Http.SocketsHttpHandler() With {&#xD;&#xA;            .MaxConnectionsPerServer = maxConnectionsPerServer,&#xD;&#xA;            .AutomaticDecompression = System.Net.DecompressionMethods.GZip Or System.Net.DecompressionMethods.Deflate,&#xD;&#xA;            .PooledConnectionLifetime = System.TimeSpan.FromMinutes(10)&#xD;&#xA;        }&#xD;&#xA;&#xD;&#xA;        Using http As New System.Net.Http.HttpClient(handler)&#xD;&#xA;            http.Timeout = System.TimeSpan.FromMinutes(10)&#xD;&#xA;            http.DefaultRequestHeaders.Authorization = New System.Net.Http.Headers.AuthenticationHeaderValue(&quot;Bearer&quot;, token)&#xD;&#xA;            http.DefaultRequestHeaders.Accept.Add(New System.Net.Http.Headers.MediaTypeWithQualityHeaderValue(&quot;application/json&quot;))&#xD;&#xA;&#xD;&#xA;            Dim designUrl = baseUrl &amp; &quot;/design-orders/&quot; &amp; orderId&#xD;&#xA;            Dim designResp = Await http.GetStringAsync(designUrl).ConfigureAwait(False)&#xD;&#xA;            Dim json = Newtonsoft.Json.Linq.JObject.Parse(designResp)&#xD;&#xA;&#xD;&#xA;            Dim shareId As String = CStr(json(&quot;designOrder&quot;)(&quot;share&quot;)(&quot;id&quot;))&#xD;&#xA;            Dim resources = TryCast(json(&quot;designOrder&quot;)(&quot;share&quot;)(&quot;resources&quot;), Newtonsoft.Json.Linq.JArray)&#xD;&#xA;            Dim accountId As String = CStr(json(&quot;designOrder&quot;)(&quot;order&quot;)(&quot;accountId&quot;))&#xD;&#xA;&#xD;&#xA;            If resources Is Nothing OrElse String.IsNullOrWhiteSpace(shareId) OrElse String.IsNullOrWhiteSpace(accountId) Then&#xD;&#xA;                Throw New System.Exception(&quot;Missing shareId/resources/accountId in design-order response.&quot;)&#xD;&#xA;            End If&#xD;&#xA;&#xD;&#xA;            Dim mergeDir = System.IO.Path.Combine(outputDir, &quot;DS_&quot; &amp; displayId)&#xD;&#xA;            If System.IO.Directory.Exists(mergeDir) Then System.IO.Directory.Delete(mergeDir, True)&#xD;&#xA;            System.IO.Directory.CreateDirectory(mergeDir)&#xD;&#xA;&#xD;&#xA;            Dim foundAny As Boolean = False&#xD;&#xA;&#xD;&#xA;            '1) DXD first (download ALL)&#xD;&#xA;            For Each res As Newtonsoft.Json.Linq.JObject In resources&#xD;&#xA;                Dim storage As String = If(res(&quot;id&quot;)(&quot;storage&quot;) Is Nothing, &quot;&quot;, CStr(res(&quot;id&quot;)(&quot;storage&quot;)))&#xD;&#xA;                Dim studyUid As String = If(res(&quot;id&quot;)(&quot;id&quot;) Is Nothing, &quot;&quot;, CStr(res(&quot;id&quot;)(&quot;id&quot;)))&#xD;&#xA;                If storage &lt;&gt; &quot;STORAGE_DXD&quot; OrElse String.IsNullOrWhiteSpace(studyUid) Then Continue For&#xD;&#xA;&#xD;&#xA;                If Await TryDownloadDXDAsync(http, baseUrl, accountId, shareId, studyUid, mergeDir).ConfigureAwait(False) Then&#xD;&#xA;                    foundAny = True&#xD;&#xA;                End If&#xD;&#xA;            Next&#xD;&#xA;&#xD;&#xA;            '2) EXOCAD (download ALL)&#xD;&#xA;            If Not foundAny Then&#xD;&#xA;                For Each res As Newtonsoft.Json.Linq.JObject In resources&#xD;&#xA;                    Dim storage As String = If(res(&quot;id&quot;)(&quot;storage&quot;) Is Nothing, &quot;&quot;, CStr(res(&quot;id&quot;)(&quot;storage&quot;)))&#xD;&#xA;                    Dim studyUid As String = If(res(&quot;id&quot;)(&quot;id&quot;) Is Nothing, &quot;&quot;, CStr(res(&quot;id&quot;)(&quot;id&quot;)))&#xD;&#xA;                    If storage &lt;&gt; &quot;STORAGE_DI_ACQUISITION&quot; OrElse String.IsNullOrWhiteSpace(studyUid) Then Continue For&#xD;&#xA;&#xD;&#xA;                    If Await DownloadViaBatchAsync(http, baseUrl, orderId, shareId, tz, accountId, studyUid, mergeDir,&#xD;&#xA;                                                   &quot;DOWNLOAD_OPTION_EXOCAD&quot;, &quot;STORAGE_DI_ACQUISITION&quot;).ConfigureAwait(False) Then&#xD;&#xA;                        foundAny = True&#xD;&#xA;                    End If&#xD;&#xA;                Next&#xD;&#xA;            End If&#xD;&#xA;&#xD;&#xA;            '3) PLY fallback (download ALL)&#xD;&#xA;            If Not foundAny Then&#xD;&#xA;                For Each res As Newtonsoft.Json.Linq.JObject In resources&#xD;&#xA;                    Dim storage As String = If(res(&quot;id&quot;)(&quot;storage&quot;) Is Nothing, &quot;&quot;, CStr(res(&quot;id&quot;)(&quot;storage&quot;)))&#xD;&#xA;                    Dim studyUid As String = If(res(&quot;id&quot;)(&quot;id&quot;) Is Nothing, &quot;&quot;, CStr(res(&quot;id&quot;)(&quot;id&quot;)))&#xD;&#xA;                    If String.IsNullOrWhiteSpace(studyUid) OrElse String.IsNullOrWhiteSpace(storage) Then Continue For&#xD;&#xA;&#xD;&#xA;                    If Await DownloadViaBatchAsync(http, baseUrl, orderId, shareId, tz, accountId, studyUid, mergeDir,&#xD;&#xA;                                                   &quot;DOWNLOAD_OPTION_PLY&quot;, storage).ConfigureAwait(False) Then&#xD;&#xA;                        foundAny = True&#xD;&#xA;                    End If&#xD;&#xA;                Next&#xD;&#xA;            End If&#xD;&#xA;&#xD;&#xA;            '4) STL fallback (download ALL)&#xD;&#xA;            If Not foundAny Then&#xD;&#xA;                For Each res As Newtonsoft.Json.Linq.JObject In resources&#xD;&#xA;                    Dim storage As String = If(res(&quot;id&quot;)(&quot;storage&quot;) Is Nothing, &quot;&quot;, CStr(res(&quot;id&quot;)(&quot;storage&quot;)))&#xD;&#xA;                    Dim studyUid As String = If(res(&quot;id&quot;)(&quot;id&quot;) Is Nothing, &quot;&quot;, CStr(res(&quot;id&quot;)(&quot;id&quot;)))&#xD;&#xA;                    If String.IsNullOrWhiteSpace(studyUid) OrElse String.IsNullOrWhiteSpace(storage) Then Continue For&#xD;&#xA;&#xD;&#xA;                    If Await DownloadViaBatchAsync(http, baseUrl, orderId, shareId, tz, accountId, studyUid, mergeDir,&#xD;&#xA;                                                   &quot;DOWNLOAD_OPTION_ORIGINAL&quot;, storage).ConfigureAwait(False) Then&#xD;&#xA;                        foundAny = True&#xD;&#xA;                    End If&#xD;&#xA;                Next&#xD;&#xA;            End If&#xD;&#xA;&#xD;&#xA;            If Not foundAny Then&#xD;&#xA;                If System.IO.Directory.Exists(mergeDir) Then System.IO.Directory.Delete(mergeDir, True)&#xD;&#xA;                Return System.Tuple.Create(False, &quot;No file found&quot;)&#xD;&#xA;            End If&#xD;&#xA;&#xD;&#xA;            ExtractNestedZipsAndFilter(mergeDir)&#xD;&#xA;&#xD;&#xA;            Dim validFiles = System.IO.Directory.GetFiles(mergeDir, &quot;*.*&quot;, System.IO.SearchOption.AllDirectories) _&#xD;&#xA;                .Where(Function(f) f.EndsWith(&quot;.stl&quot;, System.StringComparison.OrdinalIgnoreCase) OrElse&#xD;&#xA;                                f.EndsWith(&quot;.ply&quot;, System.StringComparison.OrdinalIgnoreCase)) _&#xD;&#xA;                .ToList()&#xD;&#xA;&#xD;&#xA;            Dim finalZip = System.IO.Path.Combine(outputDir, &quot;DS_&quot; &amp; displayId &amp; &quot;.zip&quot;)&#xD;&#xA;            If System.IO.File.Exists(finalZip) Then System.IO.File.Delete(finalZip)&#xD;&#xA;&#xD;&#xA;            Using zip = System.IO.Compression.ZipFile.Open(finalZip, System.IO.Compression.ZipArchiveMode.Create)&#xD;&#xA;                For Each f In validFiles&#xD;&#xA;                    zip.CreateEntryFromFile(f, System.IO.Path.GetFileName(f))&#xD;&#xA;                Next&#xD;&#xA;            End Using&#xD;&#xA;&#xD;&#xA;            System.IO.Directory.Delete(mergeDir, True)&#xD;&#xA;            Return System.Tuple.Create(True, finalZip)&#xD;&#xA;        End Using&#xD;&#xA;    End Function&#xD;&#xA;&#xD;&#xA;Dim result = RunAsync().GetAwaiter().GetResult()&#xD;&#xA;Case_found = result.Item1&#xD;&#xA;finalZipFile = result.Item2" DisplayName="Invoke Code" sap:VirtualizedContainerService.HintSize="434,197" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+      <ui:InvokeCode.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="in_AccessToken">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_AccessToken" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_CaseGUID">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_CaseGUID" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_CaseName">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_CaseName" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="str_CaseNameFolder">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="str_CaseNameFolder" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_BaseUrl">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_BaseUrl" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_TimeZone">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_TimeZone" />
+        </InArgument>
+        <OutArgument x:TypeArguments="x:String" x:Key="finalZipFile">
+          <VisualBasicReference x:TypeArguments="x:String" ExpressionText="finalZipFile" />
+        </OutArgument>
+        <OutArgument x:TypeArguments="x:Boolean" x:Key="Case_found">
+          <VisualBasicReference x:TypeArguments="x:Boolean" ExpressionText="Case_found" />
+        </OutArgument>
+      </ui:InvokeCode.Arguments>
+    </ui:InvokeCode>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[Case_found.ToString]" />
+  </Sequence>
+</Activity>

@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ModernDental_Framework_DSCore.Core</name>
+    </assembly>
+    <members>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Move_Mail_Library(UiPath.Core.QueueItem,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Invokes the Move_Mail_Library.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Move_Mail_Library(UiPath.Core.QueueItem,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)">
+            <summary>
+            Invokes the Move_Mail_Library.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.ProcessTestCase">
+            <summary>
+            Invokes the Tests/ProcessTestCase.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.ProcessTestCase(System.Boolean)">
+            <summary>
+            Invokes the Tests/ProcessTestCase.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.InitAllApplicationsTestCase">
+            <summary>
+            Invokes the Tests/InitAllApplicationsTestCase.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.InitAllApplicationsTestCase(System.Boolean)">
+            <summary>
+            Invokes the Tests/InitAllApplicationsTestCase.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.DSCore_API_Login(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,UiPath.Core.UiElement})">
+            <summary>
+            Invokes the Performer/DSCore/DSCore_API_Login.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.DSCore_API_Login(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,UiPath.Core.UiElement},System.Boolean)">
+            <summary>
+            Invokes the Performer/DSCore/DSCore_API_Login.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Main(System.String,System.String)">
+            <summary>
+            Invokes the Main.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Main(System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the Main.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.DSCore_Process(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Invokes the Performer/DSCore_Process.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.DSCore_Process(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)">
+            <summary>
+            Invokes the Performer/DSCore_Process.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.TakeScreenshot(System.String,System.String)">
+            <summary>
+            Invokes the Framework/TakeScreenshot.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.TakeScreenshot(System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the Framework/TakeScreenshot.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.InitAllApplications(System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,UiPath.Core.UiElement})">
+            <summary>
+            Invokes the Framework/InitAllApplications.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.InitAllApplications(System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,UiPath.Core.UiElement},System.Boolean)">
+            <summary>
+            Invokes the Framework/InitAllApplications.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.InitAllSettingsTestCase">
+            <summary>
+            Invokes the Tests/InitAllSettingsTestCase.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.InitAllSettingsTestCase(System.Boolean)">
+            <summary>
+            Invokes the Tests/InitAllSettingsTestCase.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.GetTransactionDataTestCase">
+            <summary>
+            Invokes the Tests/GetTransactionDataTestCase.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.GetTransactionDataTestCase(System.Boolean)">
+            <summary>
+            Invokes the Tests/GetTransactionDataTestCase.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.SendEmail(System.String,System.String,System.String,System.String)">
+            <summary>
+            Invokes the General/SendEmail.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.SendEmail(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the General/SendEmail.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.SendExceptionEmail(System.Exception,System.Boolean,System.String)">
+            <summary>
+            Invokes the Framework/SendExceptionEmail.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.SendExceptionEmail(System.Exception,System.Boolean,System.String,System.Boolean)">
+            <summary>
+            Invokes the Framework/SendExceptionEmail.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Dispatcher_Cdi(System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            Invokes the Dispatcher_CDISwden/Dispatcher_Cdi.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Dispatcher_Cdi(System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.Boolean)">
+            <summary>
+            Invokes the Dispatcher_CDISwden/Dispatcher_Cdi.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.MainTestCase">
+            <summary>
+            Invokes the Tests/MainTestCase.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.MainTestCase(System.Boolean)">
+            <summary>
+            Invokes the Tests/MainTestCase.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.DSCore_Nevigate_To_Order(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.String)">
+            <summary>
+            Invokes the Performer/DSCore/DSCore_Nevigate_To_Order.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.DSCore_Nevigate_To_Order(System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.Boolean)">
+            <summary>
+            Invokes the Performer/DSCore/DSCore_Nevigate_To_Order.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Add_to_Dentix(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Invokes the General/Add_to_Dentix.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Add_to_Dentix(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the General/Add_to_Dentix.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.RetryCurrentTransaction(System.Collections.Generic.Dictionary{System.String,System.Object},System.Exception,System.Boolean,System.Int32,System.Int32)">
+            <summary>
+            Invokes the Framework/RetryCurrentTransaction.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.RetryCurrentTransaction(System.Collections.Generic.Dictionary{System.String,System.Object},System.Exception,System.Boolean,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Invokes the Framework/RetryCurrentTransaction.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.CloseAllApplications(System.Collections.Generic.Dictionary{System.String,UiPath.Core.UiElement})">
+            <summary>
+            Invokes the Framework/CloseAllApplications.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.CloseAllApplications(System.Collections.Generic.Dictionary{System.String,UiPath.Core.UiElement},System.Boolean)">
+            <summary>
+            Invokes the Framework/CloseAllApplications.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.WorkflowTestCaseTemplate">
+            <summary>
+            Invokes the Tests/WorkflowTestCaseTemplate.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.WorkflowTestCaseTemplate(System.Boolean)">
+            <summary>
+            Invokes the Tests/WorkflowTestCaseTemplate.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.DSCore_DownloadScans(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.String,System.String,System.String)">
+            <summary>
+            Invokes the Performer/DSCore/DSCore_DownloadScans.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.DSCore_DownloadScans(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the Performer/DSCore/DSCore_DownloadScans.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.AddToQbridge(System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Invokes the General/AddToQbridge.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.AddToQbridge(System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the General/AddToQbridge.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Process(UiPath.Core.QueueItem,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,UiPath.Core.UiElement})">
+            <summary>
+            Invokes the Framework/Process.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Process(UiPath.Core.QueueItem,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,UiPath.Core.UiElement},System.Boolean)">
+            <summary>
+            Invokes the Framework/Process.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.GetTransactionData(System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object},System.Data.DataTable)">
+            <summary>
+            Invokes the Framework/GetTransactionData.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.GetTransactionData(System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object},System.Data.DataTable,System.Boolean)">
+            <summary>
+            Invokes the Framework/GetTransactionData.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.SetTransactionStatus(UiPath.Core.BusinessRuleException,System.String,System.String,System.String,System.Exception,System.Collections.Generic.Dictionary{System.String,System.Object},UiPath.Core.QueueItem,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Invokes the Framework/SetTransactionStatus.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.SetTransactionStatus(UiPath.Core.BusinessRuleException,System.String,System.String,System.String,System.Exception,System.Collections.Generic.Dictionary{System.String,System.Object},UiPath.Core.QueueItem,System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Invokes the Framework/SetTransactionStatus.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.KillAllProcesses">
+            <summary>
+            Invokes the Framework/KillAllProcesses.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.KillAllProcesses(System.Boolean)">
+            <summary>
+            Invokes the Framework/KillAllProcesses.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.CheckQueueItems(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Invokes the Dispatcher_CDISwden/CheckQueueItems.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.CheckQueueItems(System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)">
+            <summary>
+            Invokes the Dispatcher_CDISwden/CheckQueueItems.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.DSCore_ExtractOrderData(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.String,System.String)">
+            <summary>
+            Invokes the Performer/DSCore/DSCore_ExtractOrderData.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.DSCore_ExtractOrderData(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the Performer/DSCore/DSCore_ExtractOrderData.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Add_to_Box(System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Invokes the General/Add_to_Box.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Add_to_Box(System.Collections.Generic.Dictionary{System.String,System.Object},System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the General/Add_to_Box.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.InitAllSettings(System.String,System.String[])">
+            <summary>
+            Invokes the Framework/InitAllSettings.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.InitAllSettings(System.String,System.String[],System.Boolean)">
+            <summary>
+            Invokes the Framework/InitAllSettings.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Test_DSCoreDownload">
+            <summary>
+            Invokes the Test_DSCoreDownload.xaml
+            </summary>
+        </member>
+        <member name="M:ModernDental_Framework_DSCore.WorkflowRunnerService.Test_DSCoreDownload(System.Boolean)">
+            <summary>
+            Invokes the Test_DSCoreDownload.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+    </members>
+</doc>
